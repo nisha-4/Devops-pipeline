@@ -18,4 +18,10 @@ pipeline {
             }
         }
     }
+    post
+    {
+        always{
+            emailext body: 'hi', subject: 'jenkins', to: 'nishaangelic492000@gmail.com'
+        }
+    }
 }
