@@ -22,6 +22,11 @@ pipeline {
                 echo 'Hello World'
             }
         }
+         stage('Deploy2') {
+            steps {
+                echo 'Hello World'
+            }
+        }
     }
     post
     {
